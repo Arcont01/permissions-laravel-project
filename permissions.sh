@@ -4,7 +4,7 @@ echo "Escriba el nombre del directorio del proyecto:"
 read directory
 
 ROUTE="/home/projects/$directory/"
-USER=${whoami}
+USER=$(whoami)
 
 echo $ROUTE
 
